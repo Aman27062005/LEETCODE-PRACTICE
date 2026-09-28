@@ -2,7 +2,7 @@ class Solution
 {
     public int commonFactors(int a, int b) 
     {
-        int min=Math.min(a,b);
+        int min=Math.min(a,b); // finding min
         int c=0;
         for(int i=1;i<=min;i++)
         {
